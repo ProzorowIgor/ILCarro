@@ -1,115 +1,22 @@
 package test;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import aplication.AplicationManager;
 import org.testng.annotations.BeforeClass;
-
-import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
-    WebDriver wd;
+    protected static AplicationManager app = new AplicationManager();
 
     @BeforeClass
     public void setUp() {
-        wd = new ChromeDriver();
-        wd.navigate().to("https://ilcarro.xyz/search");
-        wd.manage().window().maximize();
-        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        app.init();
 
     }
 
-    // @AfterClass
     public void tearDown() {
-        wd.quit();
+
 
     }
 
-    //************************************************
-
-    public void click(By locator) {
-        wd.findElement(locator).click();
-
-    }
-
-    public void type(By locator, String text) {
-        if (text != null) {
-            WebElement element = wd.findElement(locator);
-            element.click();
-            element.clear();
-            element.sendKeys(text);
-        }
-    }
-
-
-    public void openLoginForm() {
-        click(By.xpath("//a[text()=' Log in ']"));
-
-    }
-
-    public void fillLoginForm(String email, String password) {
-        type(By.id("email"), email);
-        type(By.id("password"), password);
-
-    }
-
-    public void submitForm() {
-
-        click(By.xpath("//button[@type='submit']"));
-    }
-
-    public boolean isLogged() {
-        String text = wd.findElement(By.cssSelector(".dialog-container h2")).getText();
-        click(By.xpath("//button[text()='Ok']"));
-        return text.equals("Logged in success");
-    }
-
-    public void logout() {
-
-        click(By.xpath("//a[text()=' Logout ']"));
-    }
-
-    public boolean isLogoutPresent() {
-
-        return isElementPresent(By.xpath("//a[text()=' Logout ']"));
-    }
-
-    public boolean isElementPresent(By locator) {
-
-        return wd.findElements(locator).size() > 0;
-    }
-
-    public void openRegistrationForm() {
-
-        click(By.xpath("//*[@href='/registration?url=%2Fsearch']"));
-    }
-
-    public void fillRegistration(String name, String surname, String email, String password) {
-        type(By.id("name"), name);
-        type(By.id("lastName"), surname);
-        type(By.id("email"), email);
-        type(By.id("password"), password);
-        click(By.xpath("//label[@for='terms-of-use']"));
-        //click(By.xpath("//input[@class='ng-dirty ng-touched ng-valid']"));
-        //click(By.id("terms-of-use"));
-        click(By.xpath("//button[@type='submit']"));
-
-    }
-
-    public boolean successfullRegistration() {
-
-        boolean res = wd.findElements(By.xpath("//h2[@class='message']")).size() > 0;
-        return res;
-    }
-
-    public String actualRes() {
-
-        List<WebElement> obj = wd.findElements(By.xpath("//h2[@class='message']"));
-        String str = obj.get(0).getText();
-        return str;
-    }
 
 }
