@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class UserHelper extends HelperBase{
+public class UserHelper extends HelperBase {
 
     public UserHelper(WebDriver wd) {
         super(wd);
@@ -43,7 +43,8 @@ public class UserHelper extends HelperBase{
 
         return isElementPresent(By.xpath("//a[text()=' Logout ']"));
     }
-//*******************************************************************//
+
+    //*******************************************************************//
     public void openRegistrationForm() {
 
         click(By.xpath("//*[@href='/registration?url=%2Fsearch']"));
@@ -69,8 +70,18 @@ public class UserHelper extends HelperBase{
 
     public String actualRes() {
 
-        List<WebElement> obj = wd.findElements(By.xpath("//h2[@class='message']"));
+        //List<WebElement> obj = wd.findElements(By.xpath("//h2[@class='message']"));
+        List<WebElement> obj = wd.findElements(By.xpath("//h2[text()='You are logged in success']"));
         String str = obj.get(0).getText();
         return str;
+    }
+
+    public boolean buttonOKpressent() {
+
+        return isElementPresent(By.xpath("//button[text()='Ok']"));
+    }
+
+    public void clickOkAfterRegistration() {
+        click(By.xpath("//button[text()='Ok']"));
     }
 }
