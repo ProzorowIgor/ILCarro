@@ -11,9 +11,28 @@ repositories {
 
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
-    implementation 'org.testng:testng:7.1.0'
+    implementation 'org.testng:testng:7.4.0'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.20'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
 }
 
 test {
-    useTestNG();
+            useTestNG()
+    }
+
+task reg(type: Test) {
+    def suite = System.getProperty('suite', '')
+
+    if (suite.equals('smoke')) {
+        suites 'src/test/resources/quick.xml'
+    } else if (suite.equals('testSiute')) {
+        suites 'src/test/resources/testSiute.xml'
+    } else {
+        suites 'src/test/resources/testng.xml'
+    }
 }

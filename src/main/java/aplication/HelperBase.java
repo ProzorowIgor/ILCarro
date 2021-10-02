@@ -25,8 +25,17 @@ public class HelperBase {
             element.sendKeys(text);
         }
     }
+
     public boolean isElementPresent(By locator) {
 
         return wd.findElements(locator).size() > 0;
+    }
+
+    public void pause(int millise) {
+        try {
+            Thread.sleep(millise);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

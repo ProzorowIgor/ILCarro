@@ -1,5 +1,6 @@
 package aplication;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -44,6 +45,13 @@ public class UserHelper extends HelperBase {
         return isElementPresent(By.xpath("//a[text()=' Logout ']"));
     }
 
+    public void clickOkButton() {
+        if (isElementPresent(By.xpath("//button[.='Ok']"))) {
+            click(By.xpath("//button[text()='Ok']"));
+        }
+
+    }
+
     //*******************************************************************//
     public void openRegistrationForm() {
 
@@ -61,6 +69,9 @@ public class UserHelper extends HelperBase {
         click(By.xpath("//button[@type='submit']"));
 
     }
+
+
+
 
     public boolean successfullRegistration() {
 
@@ -84,4 +95,27 @@ public class UserHelper extends HelperBase {
     public void clickOkAfterRegistration() {
         click(By.xpath("//button[text()='Ok']"));
     }
+
+    public void fillRegistrationForm(String name, String lastname, String email, String password) {
+        type(By.id("name"), name);
+        type(By.id("lastName"), lastname);
+        type(By.id("email"), email);
+        type(By.id("password"), password);
+
+    }
+
+    public void fillRegistrationForm(User user) {
+        type(By.id("name"), user.getName() );
+        type(By.id("lastName"), user.getLastName());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+
+    }
+
+    public void checkPolicy() {
+        click(By.xpath("//label[@for = 'terms-of-use']"));
+        click(By.xpath("//button[@type='submit']"));
+    }
+
+
 }
