@@ -35,8 +35,9 @@ public class LoginTest extends TestBase {
     @AfterMethod
 
     public void postCondition() {
-        app.getUserHelper().clickOkButton();
-
+        if (app.getUserHelper().isOkButtonPresent()) {
+            app.getUserHelper().clickOkButton();
+        }
 
     }
 }

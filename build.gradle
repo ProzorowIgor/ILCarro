@@ -26,13 +26,15 @@ test {
     }
 
 task reg(type: Test) {
-    def suite = System.getProperty('suite', '')
+    useTestNG {
+        def suite = System.getProperty('suite', '')
 
-    if (suite.equals('smoke')) {
-        suites 'src/test/resources/quick.xml'
-    } else if (suite.equals('testSiute')) {
-        suites 'src/test/resources/testSiute.xml'
-    } else {
-        suites 'src/test/resources/testng.xml'
+        if (suite.equals('smoke')) {
+            suites 'src/test/resources/smoke.xml'
+        } else if (suite.equals('testSiute')) {
+            suites 'src/test/resources/testSiute.xml'
+        } else {
+            suites 'src/test/resources/testNG.xml'
+        }
     }
 }

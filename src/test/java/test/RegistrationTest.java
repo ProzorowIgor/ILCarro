@@ -27,13 +27,13 @@ public class RegistrationTest extends TestBase {
 
     }
 
-    @Test
+    /*@Test
     public void negativeWrongRegistration() {
         app.getUserHelper().openRegistrationForm();
         app.getUserHelper().fillRegistration("Igor", "Prohorow", "irga1231+2mail.ru", "Awww123");
          //Assert.assertFalse(app.getUserHelper().successfullRegistration());
 
-    }
+    }*/
 
     @AfterMethod
     public void finishedRegistration() {

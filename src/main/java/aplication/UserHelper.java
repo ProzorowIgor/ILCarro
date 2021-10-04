@@ -45,12 +45,18 @@ public class UserHelper extends HelperBase {
         return isElementPresent(By.xpath("//a[text()=' Logout ']"));
     }
 
+
+    public boolean isOkButtonPresent(){
+
+        return isElementPresent(By.xpath("//button[.='Ok']"));
+    }
+
     public void clickOkButton() {
-        if (isElementPresent(By.xpath("//button[.='Ok']"))) {
+       // if (isElementPresent(By.xpath("//button[.='Ok']"))) {
             click(By.xpath("//button[text()='Ok']"));
         }
 
-    }
+
 
     //*******************************************************************//
     public void openRegistrationForm() {
