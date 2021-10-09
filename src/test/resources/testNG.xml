@@ -6,6 +6,7 @@
             <class name="test.SecondaryRegistration" />
             <class name="test.LoginTest" />
             <class name="test.AddNewCarTest" />
+            <class name="test.FindYourCarTest" />
 
         </classes>
     </test>
