@@ -19,6 +19,7 @@ public class SearchHelper extends HelperBase{
         int dayReturn = Integer.parseInt(arrOver[0]);
 
         type(By.id("city"),city);
+        click(By.xpath("//div[@class='pac-container pac-logo']//div[1]"));
 
         click(By.id("dates"));
         click(By.cssSelector("button[aria-label='Choose month and year']"));

@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9a26064-9381-42a1-a121-0bf172e8ca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aplication/SearchHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/FindYourCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cityContainer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aplication/AplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aplication/AplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aplication/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aplication/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aplication/SearchHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aplication/SearchHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <recent name="F:\Qa29 Projects\ILCarro" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FindYourCarTest">
+  <component name="RunManager" selected="Gradle.FindYourCarTest.positiveFoundCar">
     <configuration name="FindYourCarTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,8 +165,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FindYourCarTest" />
         <item itemvalue="Gradle.FindYourCarTest.positiveFoundCar" />
+        <item itemvalue="Gradle.FindYourCarTest" />
         <item itemvalue="Gradle.FindYourCarTest.possitiveFoundCar" />
         <item itemvalue="Gradle.LoginTest" />
         <item itemvalue="Gradle.ILCarro [reg]" />
