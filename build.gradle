@@ -27,14 +27,21 @@ test {
 
 task reg(type: Test) {
     useTestNG {
-        def suite = System.getProperty('suite', '')
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
 
-        if (suite.equals('smoke')) {
-            suites 'src/test/resources/smoke.xml'
+        def suite = System.getProperty('suite', '')
+        if (suite.equals('quick')) {
+            suites 'src/test/resources/quick.xml'
         } else if (suite.equals('testSiute')) {
             suites 'src/test/resources/testSiute.xml'
         } else {
             suites 'src/test/resources/testNG.xml'
+        }
+        if(project.hasProperty('browser')){
+            systemProperty 'browser', "${browser}";
         }
     }
 }

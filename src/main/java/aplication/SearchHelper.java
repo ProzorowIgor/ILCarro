@@ -1,11 +1,13 @@
 package aplication;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class SearchHelper extends HelperBase{
 
@@ -29,6 +31,8 @@ public class SearchHelper extends HelperBase{
         click(By.xpath("//div[text()=' "+arrBegin[1]+" ']"));
         click(By.xpath(String.format("//div[text()=' %s ']",dayTake)));
         click(By.xpath(String.format("//div[text()=' %s ']",dayReturn)));
+        //click(By.cssSelector(".cdk-overlay-container"));
+
         hitOnYalla();
 
 
@@ -36,6 +40,8 @@ public class SearchHelper extends HelperBase{
     }
 
     private void hitOnYalla() {
+new WebDriverWait(wd,10)
+        .until(ExpectedConditions.elementToBeClickable(By.cssSelector("button[type='submit']")));
         click(By.cssSelector("button[type='submit']"));
     }
 
@@ -90,10 +96,22 @@ public class SearchHelper extends HelperBase{
 
 
     public void typingNegativeDates(String city, String dates) {
+        click(By.xpath("//div[@class='header']//a[@class='logo']"));
         fillCity(city);
-        type(By.id("dates"),dates);
+        pause(3000);
+        WebElement webEl = wd.findElement(By.id("dates"));
+        webEl.click();
+        webEl.sendKeys(Keys.chord(Keys.CONTROL +"a"));
+        webEl.sendKeys(dates);
+        click(By.cssSelector(".cdk-overlay-container"));
         String message = wd.findElement(By.xpath("//div[@class='ng-star-inserted']")).getText();
         Assert.assertEquals(message,"You can't pick date before today");
+
+    }
+
+    public void returnOnIlCarroMainPage() {
+
+click(By.xpath("//div[@class='header']//a[@class='logo']"));
 
     }
 }

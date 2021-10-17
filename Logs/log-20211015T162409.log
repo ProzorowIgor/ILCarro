@@ -1,0 +1,50 @@
+16:24:22  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+16:24:22  INFO  aplication.MyListener - The element -->By.id: citywas found
+16:24:22  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+16:24:23  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+16:24:23  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+16:24:23  INFO  aplication.MyListener - The element -->By.id: dateswas found
+16:24:23  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[aria-label='Choose month and year']
+16:24:23  INFO  aplication.MyListener - The element -->By.cssSelector: button[aria-label='Choose month and year']was found
+16:24:23  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 2021 ']
+16:24:23  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 2021 ']was found
+16:24:23  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' OCT ']
+16:24:23  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' OCT ']was found
+16:24:24  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 12 ']
+16:24:24  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 12 ']was found
+16:24:24  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 15 ']
+16:24:24  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 15 ']was found
+16:24:24  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .cdk-overlay-container
+16:24:24  INFO  aplication.MyListener - The element -->By.cssSelector: .cdk-overlay-containerwas found
+16:24:24  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[type='submit']
+16:24:24  INFO  aplication.MyListener - The element -->By.cssSelector: button[type='submit']was found
+16:24:24  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+16:24:24  INFO  aplication.MyListener - The element -->By.id: citywas found
+16:24:24  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+16:24:25  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+16:24:25  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+16:24:25  INFO  aplication.MyListener - The element -->By.id: dateswas found
+16:24:25  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[aria-label='Next month']
+16:24:25  INFO  aplication.MyListener - The element -->By.cssSelector: button[aria-label='Next month']was found
+16:24:25  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 2 ']
+16:24:25  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 2 ']was found
+16:24:25  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[aria-label='Next month']
+16:24:25  INFO  aplication.MyListener - The element -->By.cssSelector: button[aria-label='Next month']was found
+16:24:25  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 3 ']
+16:24:25  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 3 ']was found
+16:24:25  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[type='submit']
+16:24:25  INFO  aplication.MyListener - The element -->By.cssSelector: button[type='submit']was found
+16:24:25  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+16:24:25  INFO  aplication.MyListener - The element -->By.id: citywas found
+16:24:25  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+16:24:26  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+16:24:26  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+16:24:36  INFO  aplication.MyListener - We heave throwable -->no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f8d0a8d8e4440ac56516ed56ccea9b6
+*** Element info: {Using=id, value=dates}

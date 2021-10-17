@@ -1,0 +1,48 @@
+18:32:59  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+18:33:09  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+18:33:09  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Log in ']
+18:33:09  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Log in ']was found
+18:33:09  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+18:33:09  INFO  aplication.MyListener - The element -->By.id: emailwas found
+18:33:10  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+18:33:10  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+18:33:10  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+18:33:10  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+18:33:10  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[.='Ok']
+18:33:11  INFO  aplication.MyListener - The element -->By.xpath: //button[.='Ok']was found
+18:33:11  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:33:11  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+18:33:11  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:33:11  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+18:33:14  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+18:33:14  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+18:33:14  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+18:33:14  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+18:33:17  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+18:33:27  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+18:33:27  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Log in ']
+18:33:27  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Log in ']was found
+18:33:27  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+18:33:27  INFO  aplication.MyListener - The element -->By.id: emailwas found
+18:33:28  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+18:33:28  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+18:33:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+18:33:28  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+18:33:28  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .dialog-container h2
+18:33:28  INFO  aplication.MyListener - The element -->By.cssSelector: .dialog-container h2was found
+18:33:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:33:28  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+18:33:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[.='Ok']
+18:33:28  INFO  aplication.MyListener - The element -->By.xpath: //button[.='Ok']was found
+18:33:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:33:28  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+18:33:29  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:33:39  INFO  aplication.MyListener - We heave throwable -->no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f65abd4f47f248f5d0f7947c65c3b87f
+*** Element info: {Using=xpath, value=//button[text()='Ok']}

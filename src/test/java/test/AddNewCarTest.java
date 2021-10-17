@@ -7,13 +7,16 @@ import org.testng.annotations.Test;
 
 public class AddNewCarTest extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
-        LoginTest.loginSuccess();
+        app.getUserHelper().openLoginForm();
+        app.getUserHelper().fillLoginForm("noa@gmail.com", "Nnoa12345$");
+        app.getUserHelper().submitForm();
+        //LoginTest.loginSuccess();
 
     }
 
-    @Test
+    @Test(groups = {"web"})
 
     public void addNewCarSuccess(){
         int i = (int)((System.currentTimeMillis()/1000)%3600);
@@ -46,11 +49,13 @@ public class AddNewCarTest extends TestBase{
 
     }
 
-    /*@AfterMethod
+    @AfterMethod(alwaysRun = true)
 
-    public void isOk(){
-
-
-    }*/
+    public void postCondition() {
+        app.getUserHelper().clickOnSearchCar();
+        if (app.getUserHelper().isLogoutPresent()) {
+            app.getUserHelper().logout();
+        }
+    }
 
 }

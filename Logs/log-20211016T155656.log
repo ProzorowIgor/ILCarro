@@ -1,0 +1,25 @@
+15:57:02  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+15:57:02  INFO  aplication.MyListener - The element -->By.id: citywas found
+15:57:02  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+15:57:03  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+15:57:03  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+15:57:03  INFO  aplication.MyListener - The element -->By.id: dateswas found
+15:57:03  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[aria-label='Choose month and year']
+15:57:03  INFO  aplication.MyListener - The element -->By.cssSelector: button[aria-label='Choose month and year']was found
+15:57:03  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 2021 ']
+15:57:03  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 2021 ']was found
+15:57:03  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' DEC ']
+15:57:03  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' DEC ']was found
+15:57:03  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 12 ']
+15:57:03  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 12 ']was found
+15:57:03  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 15 ']
+15:57:03  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 15 ']was found
+15:57:03  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .cdk-overlay-container
+15:57:03  INFO  aplication.MyListener - The element -->By.cssSelector: .cdk-overlay-containerwas found
+15:57:05  INFO  aplication.MyListener - We heave throwable -->element click intercepted: Element <div class="cdk-overlay-container">...</div> is not clickable at point (674, 306). Other element would receive the click: <div _ngcontent-dpf-c72="" class="search-card">...</div>
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2588b88e2cf304bbb88d3b0d9d602b04

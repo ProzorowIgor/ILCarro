@@ -7,7 +7,7 @@ import test.TestBase;
 
 public class SecondaryRegistration extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
 
     public void preConditions() {
 
@@ -16,7 +16,7 @@ public class SecondaryRegistration extends TestBase {
         }
     }
 
-    @Test
+    @Test(groups = {"web"})
     public void registrationTest(){
 
         int i = (int)((System.currentTimeMillis()/1000)%3600);
@@ -66,6 +66,9 @@ public class SecondaryRegistration extends TestBase {
 
         if (app.getUserHelper().buttonOKpressent()) {
             app.getUserHelper().clickOkAfterRegistration();
+        }
+        if (app.getUserHelper().isLogoutPresent()) {
+            app.getUserHelper().logout();
         }
 
     }

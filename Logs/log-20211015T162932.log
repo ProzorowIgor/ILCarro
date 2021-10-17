@@ -1,0 +1,12 @@
+16:29:40  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='header']//a[@class='logo']
+16:29:40  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='header']//a[@class='logo']was found
+16:29:41  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+16:29:41  INFO  aplication.MyListener - The element -->By.id: citywas found
+16:29:41  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+16:29:41  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+16:29:41  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+16:29:41  INFO  aplication.MyListener - The element -->By.id: dateswas found
+16:29:42  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .cdk-overlay-container
+16:29:42  INFO  aplication.MyListener - The element -->By.cssSelector: .cdk-overlay-containerwas found
+16:29:42  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='ng-star-inserted']
+16:29:42  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='ng-star-inserted']was found

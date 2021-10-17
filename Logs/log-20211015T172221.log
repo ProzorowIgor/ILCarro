@@ -1,0 +1,48 @@
+17:22:27  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+17:22:27  INFO  aplication.MyListener - The element -->By.id: citywas found
+17:22:27  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+17:22:27  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+17:22:28  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+17:22:28  INFO  aplication.MyListener - The element -->By.id: dateswas found
+17:22:28  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[aria-label='Choose month and year']
+17:22:28  INFO  aplication.MyListener - The element -->By.cssSelector: button[aria-label='Choose month and year']was found
+17:22:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 2021 ']
+17:22:28  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 2021 ']was found
+17:22:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' OCT ']
+17:22:28  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' OCT ']was found
+17:22:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 12 ']
+17:22:28  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 12 ']was found
+17:22:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 15 ']
+17:22:28  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 15 ']was found
+17:22:29  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .cdk-overlay-container
+17:22:29  INFO  aplication.MyListener - The element -->By.cssSelector: .cdk-overlay-containerwas found
+17:22:29  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[type='submit']
+17:22:29  INFO  aplication.MyListener - The element -->By.cssSelector: button[type='submit']was found
+17:22:29  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+17:22:29  INFO  aplication.MyListener - The element -->By.id: citywas found
+17:22:29  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+17:22:29  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+17:22:29  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+17:22:29  INFO  aplication.MyListener - The element -->By.id: dateswas found
+17:22:29  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[aria-label='Next month']
+17:22:30  INFO  aplication.MyListener - The element -->By.cssSelector: button[aria-label='Next month']was found
+17:22:30  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 2 ']
+17:22:30  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 2 ']was found
+17:22:30  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[aria-label='Next month']
+17:22:30  INFO  aplication.MyListener - The element -->By.cssSelector: button[aria-label='Next month']was found
+17:22:30  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 3 ']
+17:22:30  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 3 ']was found
+17:22:30  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[type='submit']
+17:22:30  INFO  aplication.MyListener - The element -->By.cssSelector: button[type='submit']was found
+17:22:30  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='header']//a[@class='logo']
+17:22:30  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='header']//a[@class='logo']was found
+17:22:31  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+17:22:31  INFO  aplication.MyListener - The element -->By.id: citywas found
+17:22:31  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+17:22:32  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+17:22:35  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+17:22:35  INFO  aplication.MyListener - The element -->By.id: dateswas found
+17:22:35  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .cdk-overlay-container
+17:22:35  INFO  aplication.MyListener - The element -->By.cssSelector: .cdk-overlay-containerwas found
+17:22:35  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='ng-star-inserted']
+17:22:35  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='ng-star-inserted']was found

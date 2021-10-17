@@ -4,6 +4,8 @@ import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -31,7 +33,7 @@ public class UserHelper extends HelperBase {
 
     public boolean isLogged() {
         String text = wd.findElement(By.cssSelector(".dialog-container h2")).getText();
-        click(By.xpath("//button[text()='Ok']"));
+        //click(By.xpath("//button[text()='Ok']"));
         return text.equals("Logged in success");
     }
 
@@ -53,6 +55,8 @@ public class UserHelper extends HelperBase {
 
     public void clickOkButton() {
        // if (isElementPresent(By.xpath("//button[.='Ok']"))) {
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Ok']")));
             click(By.xpath("//button[text()='Ok']"));
         }
 
@@ -124,4 +128,9 @@ public class UserHelper extends HelperBase {
     }
 
 
+    public void clickOnSearchCar() {
+new WebDriverWait(wd,10)
+        .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Search cars']")));
+        click(By.xpath("//button[text()='Search cars']"));
+    }
 }

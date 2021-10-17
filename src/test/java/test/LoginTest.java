@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod//(alwaysRun = true)
     public void preCondition() {
         if (app.getUserHelper().isLogoutPresent()) {
             app.getUserHelper().logout();
@@ -23,7 +23,7 @@ public class LoginTest extends TestBase {
         //Assert.assertTrue(app.getUserHelper().isLogged());
     }
 
-    @Test
+    @Test(groups = {"web"})
     public void negativeLoginWrongPassword() {
         app.getUserHelper().openLoginForm();
         app.getUserHelper().fillLoginForm("noa@gmail.com", "Nnoa123456");
@@ -32,11 +32,13 @@ public class LoginTest extends TestBase {
 
     }
 
-    @AfterMethod
-
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         if (app.getUserHelper().isOkButtonPresent()) {
             app.getUserHelper().clickOkButton();
+        }
+        if (app.getUserHelper().isLogoutPresent()) {
+            app.getUserHelper().logout();
         }
 
     }

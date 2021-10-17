@@ -1,0 +1,103 @@
+15:38:15  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+15:38:25  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+15:38:25  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //*[@href='/registration?url=%2Fsearch']
+15:38:26  INFO  aplication.MyListener - The element -->By.xpath: //*[@href='/registration?url=%2Fsearch']was found
+15:38:26  INFO  aplication.MyListener - Start finding element by ------>By.id: name
+15:38:26  INFO  aplication.MyListener - The element -->By.id: namewas found
+15:38:26  INFO  aplication.MyListener - Start finding element by ------>By.id: lastName
+15:38:26  INFO  aplication.MyListener - The element -->By.id: lastNamewas found
+15:38:26  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+15:38:26  INFO  aplication.MyListener - The element -->By.id: emailwas found
+15:38:26  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+15:38:26  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+15:38:26  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //label[@for = 'terms-of-use']
+15:38:26  INFO  aplication.MyListener - The element -->By.xpath: //label[@for = 'terms-of-use']was found
+15:38:27  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+15:38:27  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+15:38:27  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+15:38:27  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+15:38:27  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+15:38:27  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+15:38:28  INFO  aplication.MyListener - We heave throwable -->element click intercepted: Element <a _ngcontent-vfh-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch">...</a> is not clickable at point (973, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63633}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7270614c7310deb723c8f02d06e1109
+15:38:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[.='Ok']
+15:38:28  INFO  aplication.MyListener - The element -->By.xpath: //button[.='Ok']was found
+15:38:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+15:38:28  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+15:38:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+15:38:28  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+15:38:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+15:38:28  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+15:38:28  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Log in ']
+15:38:29  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Log in ']was found
+15:38:29  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+15:38:29  INFO  aplication.MyListener - The element -->By.id: emailwas found
+15:38:29  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+15:38:29  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+15:38:29  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+15:38:29  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+15:38:29  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[@href='/let-car-work']
+15:38:29  INFO  aplication.MyListener - The element -->By.xpath: //a[@href='/let-car-work']was found
+15:38:29  INFO  aplication.MyListener - Start finding element by ------>By.id: pickUpPlace
+15:38:29  INFO  aplication.MyListener - The element -->By.id: pickUpPlacewas found
+15:38:30  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: div.pac-item
+15:38:30  INFO  aplication.MyListener - The element -->By.cssSelector: div.pac-itemwas found
+15:38:31  INFO  aplication.MyListener - Start finding element by ------>By.id: make
+15:38:31  INFO  aplication.MyListener - The element -->By.id: makewas found
+15:38:31  INFO  aplication.MyListener - Start finding element by ------>By.id: model
+15:38:31  INFO  aplication.MyListener - The element -->By.id: modelwas found
+15:38:31  INFO  aplication.MyListener - Start finding element by ------>By.id: year
+15:38:31  INFO  aplication.MyListener - The element -->By.id: yearwas found
+15:38:31  INFO  aplication.MyListener - Start finding element by ------>By.id: engine
+15:38:31  INFO  aplication.MyListener - The element -->By.id: enginewas found
+15:38:31  INFO  aplication.MyListener - Start finding element by ------>By.id: fuel
+15:38:32  INFO  aplication.MyListener - The element -->By.id: fuelwas found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.xpath: .//option[@value = "Petrol"]
+15:38:32  INFO  aplication.MyListener - The element -->By.xpath: .//option[@value = "Petrol"]was found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.id: gear
+15:38:32  INFO  aplication.MyListener - The element -->By.id: gearwas found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.xpath: .//option[@value = "MT"]
+15:38:32  INFO  aplication.MyListener - The element -->By.xpath: .//option[@value = "MT"]was found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.id: wheelsDrive
+15:38:32  INFO  aplication.MyListener - The element -->By.id: wheelsDrivewas found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.xpath: .//option[@value = "AWD"]
+15:38:32  INFO  aplication.MyListener - The element -->By.xpath: .//option[@value = "AWD"]was found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.id: doors
+15:38:32  INFO  aplication.MyListener - The element -->By.id: doorswas found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.id: seats
+15:38:32  INFO  aplication.MyListener - The element -->By.id: seatswas found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.id: class
+15:38:32  INFO  aplication.MyListener - The element -->By.id: classwas found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.id: fuelConsumption
+15:38:32  INFO  aplication.MyListener - The element -->By.id: fuelConsumptionwas found
+15:38:32  INFO  aplication.MyListener - Start finding element by ------>By.id: serialNumber
+15:38:32  INFO  aplication.MyListener - The element -->By.id: serialNumberwas found
+15:38:33  INFO  aplication.MyListener - Start finding element by ------>By.id: price
+15:38:33  INFO  aplication.MyListener - The element -->By.id: pricewas found
+15:38:33  INFO  aplication.MyListener - Start finding element by ------>By.id: distance
+15:38:33  INFO  aplication.MyListener - The element -->By.id: distancewas found
+15:38:33  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .feature-input
+15:38:33  INFO  aplication.MyListener - The element -->By.cssSelector: .feature-inputwas found
+15:38:33  INFO  aplication.MyListener - Start finding element by ------>By.id: about
+15:38:33  INFO  aplication.MyListener - The element -->By.id: aboutwas found
+15:38:33  INFO  aplication.MyListener - Start finding element by ------>By.id: photos
+15:38:33  INFO  aplication.MyListener - The element -->By.id: photoswas found
+15:38:38  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Submit']
+15:38:38  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Submit']was found
+15:38:39  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Submit']
+15:38:39  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Submit']was found
+15:38:39  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+15:38:49  INFO  aplication.MyListener - We heave throwable -->no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63633}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7270614c7310deb723c8f02d06e1109
+*** Element info: {Using=id, value=city}

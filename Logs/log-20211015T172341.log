@@ -1,0 +1,34 @@
+17:23:46  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+17:23:56  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+17:23:56  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Log in ']
+17:23:56  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Log in ']was found
+17:23:56  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+17:23:56  INFO  aplication.MyListener - The element -->By.id: emailwas found
+17:23:56  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+17:23:56  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+17:23:57  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+17:23:57  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+17:23:57  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[.='Ok']
+17:23:57  INFO  aplication.MyListener - The element -->By.xpath: //button[.='Ok']was found
+17:23:57  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+17:23:58  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+17:23:58  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+17:23:58  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+17:23:58  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+17:23:58  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+17:23:58  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Log in ']
+17:23:58  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Log in ']was found
+17:23:58  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+17:23:58  INFO  aplication.MyListener - The element -->By.id: emailwas found
+17:23:58  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+17:23:58  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+17:23:58  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+17:23:58  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+17:23:58  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .dialog-container h2
+17:23:59  INFO  aplication.MyListener - The element -->By.cssSelector: .dialog-container h2was found
+17:23:59  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+17:23:59  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+17:23:59  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[.='Ok']
+17:23:59  INFO  aplication.MyListener - The element -->By.xpath: //button[.='Ok']was found
+17:23:59  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+17:23:59  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found

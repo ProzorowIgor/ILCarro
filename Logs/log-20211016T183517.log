@@ -1,0 +1,54 @@
+18:35:26  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+18:35:36  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+18:35:36  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Log in ']
+18:35:36  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Log in ']was found
+18:35:36  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+18:35:36  INFO  aplication.MyListener - The element -->By.id: emailwas found
+18:35:36  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+18:35:36  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+18:35:36  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+18:35:36  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+18:35:37  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[.='Ok']
+18:35:37  INFO  aplication.MyListener - The element -->By.xpath: //button[.='Ok']was found
+18:35:37  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:35:37  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+18:35:37  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:35:37  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+18:35:40  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+18:35:40  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+18:35:40  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+18:35:40  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+18:35:41  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Log in ']
+18:35:41  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Log in ']was found
+18:35:41  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+18:35:41  INFO  aplication.MyListener - The element -->By.id: emailwas found
+18:35:41  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+18:35:41  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+18:35:41  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+18:35:41  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+18:35:41  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .dialog-container h2
+18:35:42  INFO  aplication.MyListener - The element -->By.cssSelector: .dialog-container h2was found
+18:35:42  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:35:42  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+18:35:42  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[.='Ok']
+18:35:42  INFO  aplication.MyListener - The element -->By.xpath: //button[.='Ok']was found
+18:35:42  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:35:42  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Ok']was found
+18:35:42  INFO  aplication.MyListener - We heave throwable -->stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fef69f693885477c2fc62f5acd2f99d
+18:35:42  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Ok']
+18:35:52  INFO  aplication.MyListener - We heave throwable -->no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fef69f693885477c2fc62f5acd2f99d
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
