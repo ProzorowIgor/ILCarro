@@ -1,0 +1,39 @@
+21:20:16  INFO  aplication.MyListener - Start finding element by ------>By.id: city
+21:20:16  INFO  aplication.MyListener - The element -->By.id: citywas found
+21:20:16  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='pac-container pac-logo']//div[1]
+21:20:17  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='pac-container pac-logo']//div[1]was found
+21:20:17  INFO  aplication.MyListener - Start finding element by ------>By.id: dates
+21:20:17  INFO  aplication.MyListener - The element -->By.id: dateswas found
+21:20:17  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[aria-label='Choose month and year']
+21:20:17  INFO  aplication.MyListener - The element -->By.cssSelector: button[aria-label='Choose month and year']was found
+21:20:17  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 2021 ']
+21:20:17  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 2021 ']was found
+21:20:18  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' NOV ']
+21:20:18  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' NOV ']was found
+21:20:18  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 27 ']
+21:20:18  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 27 ']was found
+21:20:18  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[text()=' 30 ']
+21:20:18  INFO  aplication.MyListener - The element -->By.xpath: //div[text()=' 30 ']was found
+21:20:18  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[type='submit']
+21:20:18  INFO  aplication.MyListener - The element -->By.cssSelector: button[type='submit']was found
+21:20:18  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: button[type='submit']
+21:20:18  INFO  aplication.MyListener - The element -->By.cssSelector: button[type='submit']was found
+21:20:18  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //div[@class='search-results-card']//a[1]
+21:20:19  INFO  aplication.MyListener - The element -->By.xpath: //div[@class='search-results-card']//a[1]was found
+21:20:21  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Rent now!! ']
+21:20:21  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Rent now!! ']was found
+21:20:21  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Rent now!! ']
+21:20:21  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Rent now!! ']was found
+21:20:21  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+21:20:21  INFO  aplication.MyListener - The element -->By.id: emailwas found
+21:20:22  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+21:20:22  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+21:20:22  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[text()='Rent now!! ']
+21:20:22  INFO  aplication.MyListener - The element -->By.xpath: //button[text()='Rent now!! ']was found
+21:20:23  INFO  aplication.MyListener - We heave throwable -->element click intercepted: Element <button _ngcontent-okn-c104="">...</button> is not clickable at point (996, 338). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54130}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c345d7940338ef8ba87817aa92cef53

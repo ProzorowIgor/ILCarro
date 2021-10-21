@@ -1,8 +1,11 @@
 package aplication;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import com.google.common.io.Files;
+
+import java.io.File;
+import java.io.IOException;
+
 
 public class HelperBase {
 
@@ -38,5 +41,17 @@ public class HelperBase {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public void takeScreenShot(String pathToFile){
+        File temp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+
+        File screenshot = new File(pathToFile);
+        try{
+            Files.copy(temp,screenshot);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+
     }
 }

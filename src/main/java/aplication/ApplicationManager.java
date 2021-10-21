@@ -14,7 +14,10 @@ public class ApplicationManager {
     UserHelper userHelper;
     HelperCar car;
     SearchHelper searchHelper;
+    RentHelper rentHelper;
     String browser;
+
+
 
     public ApplicationManager(String browser) {
 
@@ -36,6 +39,7 @@ public class ApplicationManager {
         userHelper = new UserHelper(wd);
         car = new HelperCar(wd);
         searchHelper = new SearchHelper(wd);
+        rentHelper = new RentHelper(wd);
 
     }
 
@@ -57,6 +61,8 @@ public class ApplicationManager {
         return searchHelper;
     }
 
-
+    public RentHelper getRentHelper() {
+        return rentHelper;
+    }
 
 }

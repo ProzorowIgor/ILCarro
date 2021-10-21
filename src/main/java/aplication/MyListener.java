@@ -35,6 +35,12 @@ public class MyListener extends AbstractWebDriverEventListener {
 
         super.onException(throwable, driver);
         logger.info("We heave throwable -->" +throwable.getMessage());
+
+        int i = (int) (System.currentTimeMillis()/1000%3600);
+        String screenshot = "src/test/screenshots/screen-"+i+".png";
+        HelperBase hb = new HelperBase(driver);
+        hb.takeScreenShot(screenshot);
+
     }
 
     @Override

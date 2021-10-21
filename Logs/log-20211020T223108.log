@@ -1,0 +1,24 @@
+22:31:13  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+22:31:24  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+22:31:24  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Log in ']
+22:31:24  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Log in ']was found
+22:31:24  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+22:31:24  INFO  aplication.MyListener - The element -->By.id: emailwas found
+22:31:24  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+22:31:24  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+22:31:24  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+22:31:24  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+22:31:24  INFO  aplication.MyListener - Start finding element by ------>By.cssSelector: .dialog-container h2
+22:31:34  INFO  aplication.MyListener - We heave throwable -->no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container h2"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3UOK3PE', ip: '10.100.102.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56284}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d61dbb968c9e2c6ced1bafd052049f1d
+*** Element info: {Using=css selector, value=.dialog-container h2}
+22:31:35  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[.='Ok']
+22:31:45  INFO  aplication.MyListener - The element -->By.xpath: //button[.='Ok']was found
+22:31:45  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+22:31:55  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found

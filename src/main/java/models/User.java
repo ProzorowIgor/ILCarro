@@ -6,6 +6,7 @@ public class User {
     String password;
     String name;
     String lastName;
+    String phone;
 
     public User withEmail(String email) {
         this.email = email;
@@ -14,6 +15,13 @@ public class User {
 
     public User withPassword(String password) {
         this.password = password;
+        return this;
+    }
+
+
+
+    public User withPhone(String phone) {
+        this.phone = phone;
         return this;
     }
 
@@ -44,4 +52,5 @@ public class User {
     public String getName() {
         return name;
     }
+    public String getPhone() { return phone; }
 }

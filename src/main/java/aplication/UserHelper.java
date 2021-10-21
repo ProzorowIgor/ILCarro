@@ -29,6 +29,7 @@ public class UserHelper extends HelperBase {
     public void submitForm() {
 
         click(By.xpath("//button[@type='submit']"));
+        click(By.xpath("//button[text()='Ok']"));
     }
 
     public boolean isLogged() {
@@ -132,5 +133,10 @@ public class UserHelper extends HelperBase {
 new WebDriverWait(wd,10)
         .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Search cars']")));
         click(By.xpath("//button[text()='Search cars']"));
+    }
+
+    public boolean isLogInPreset() {
+
+        return isElementPresent(By.xpath("//a[text()=' Log in ']"));
     }
 }

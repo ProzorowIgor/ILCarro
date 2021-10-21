@@ -25,13 +25,14 @@ public class LoginTest extends TestBase {
 
     @Test(groups = {"web"})
     public void negativeLoginWrongPassword() {
-        app.getUserHelper().openLoginForm();
-        app.getUserHelper().fillLoginForm("noa@gmail.com", "Nnoa123456");
-        app.getUserHelper().submitForm();
-        Assert.assertFalse(app.getUserHelper().isLogged());
+        {
+            app.getUserHelper().openLoginForm();
+            app.getUserHelper().fillLoginForm("noa@gmail.com", "Nnoa123456");
+            app.getUserHelper().submitForm();
+            Assert.assertFalse(app.getUserHelper().isLogged());
 
+        }
     }
-
     @AfterMethod(alwaysRun = true)
     public void postCondition() {
         if (app.getUserHelper().isOkButtonPresent()) {
