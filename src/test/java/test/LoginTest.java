@@ -25,7 +25,7 @@ public class LoginTest extends TestBase {
 
 
 
-    @Test(dataProvider = "validDataLogin",dataProviderClass = MyDataProvider.class)
+    @Test//(dataProvider = "validDataLogin",dataProviderClass = MyDataProvider.class)
     public static void loginSuccess(String email,String password) {
         app.getUserHelper().openLoginForm();
         app.getUserHelper().fillLoginForm("noa@gmail.com", "Nnoa12345$");
@@ -37,7 +37,7 @@ public class LoginTest extends TestBase {
 
 
 
-    @Test(dataProvider = "dataLoginCVS",dataProviderClass = MyDataProvider.class)
+    @Test//(dataProvider = "dataLoginCVS",dataProviderClass = MyDataProvider.class)
     public void negativeLoginWrongPassword(String email, String password) {
         {
             app.getUserHelper().openLoginForm();

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.SecondaryRegistration" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-17T16:54:00" hostname="DESKTOP-3UOK3PE" time="1.057">
+  <properties/>
+  <testcase name="registrationTest" classname="test.SecondaryRegistration" time="1.057"/>
+  <system-out><![CDATA[19:53:50  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //a[text()=' Logout ']
+19:54:00  INFO  aplication.MyListener - The element -->By.xpath: //a[text()=' Logout ']was found
+19:54:00  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //*[@href='/registration?url=%2Fsearch']
+19:54:00  INFO  aplication.MyListener - The element -->By.xpath: //*[@href='/registration?url=%2Fsearch']was found
+19:54:00  INFO  aplication.MyListener - Start finding element by ------>By.id: name
+19:54:00  INFO  aplication.MyListener - The element -->By.id: namewas found
+19:54:00  INFO  aplication.MyListener - Start finding element by ------>By.id: lastName
+19:54:00  INFO  aplication.MyListener - The element -->By.id: lastNamewas found
+19:54:01  INFO  aplication.MyListener - Start finding element by ------>By.id: email
+19:54:01  INFO  aplication.MyListener - The element -->By.id: emailwas found
+19:54:01  INFO  aplication.MyListener - Start finding element by ------>By.id: password
+19:54:01  INFO  aplication.MyListener - The element -->By.id: passwordwas found
+19:54:01  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //label[@for = 'terms-of-use']
+19:54:01  INFO  aplication.MyListener - The element -->By.xpath: //label[@for = 'terms-of-use']was found
+19:54:01  INFO  aplication.MyListener - Start finding element by ------>By.xpath: //button[@type='submit']
+19:54:01  INFO  aplication.MyListener - The element -->By.xpath: //button[@type='submit']was found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
