@@ -26,10 +26,16 @@ public class UserHelper extends HelperBase {
 
     }
 
+    public void fillLoginForm(User user) {
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+
+    }
+
     public void submitForm() {
 
         click(By.xpath("//button[@type='submit']"));
-        click(By.xpath("//button[text()='Ok']"));
+        //click(By.xpath("//button[text()='Ok']"));
     }
 
     public boolean isLogged() {
@@ -139,4 +145,6 @@ new WebDriverWait(wd,10)
 
         return isElementPresent(By.xpath("//a[text()=' Log in ']"));
     }
+
+
 }

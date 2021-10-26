@@ -1,6 +1,7 @@
 package test;
 
 import models.Car;
+import models.User;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -10,7 +11,8 @@ public class AddNewCarTest extends TestBase{
     @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         app.getUserHelper().openLoginForm();
-        app.getUserHelper().fillLoginForm("noa@gmail.com", "Nnoa12345$");
+       // app.getUserHelper().fillLoginForm("noa@gmail.com", "Nnoa12345$");
+        app.getUserHelper().fillLoginForm(new User().withEmail(app.setEmail()).withPassword(app.setPassword()));
         app.getUserHelper().submitForm();
         //LoginTest.loginSuccess();
 
