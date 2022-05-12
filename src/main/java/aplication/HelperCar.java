@@ -51,16 +51,16 @@ public class HelperCar extends HelperBase {
     }
 
     private void selectFuel(By locator, String option) {
-        Select select = new Select(wd.findElement(locator));
+       /* Select select = new Select(wd.findElement(locator));
 
         if (option.equals("Petrol")) {
             //new Select(wd.findElement(locator)).selectByIndex(1);
             select.selectByValue("Petrol");
         }else if (option.equals("Disel")) {
             select.selectByValue("Disel");
-        }
+        }*/
 
-        //new Select(wd.findElement(locator)).selectByVisibleText(" Petrol ");
+        new Select(wd.findElement(locator)).selectByVisibleText(option);//That's the right way
 
     }
 
